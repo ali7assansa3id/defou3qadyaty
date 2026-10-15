@@ -1,0 +1,20 @@
+{
+  "name": "dafoei-qadiati-android-wrapper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Android packaging wrapper for Dafoei Qadiati local app",
+  "scripts": {
+    "cap:init": "cap init \"دفوعي قضيتي\" com.dafoeiqadiati.app --web-dir www",
+    "android:add": "cap add android",
+    "sync": "cap sync android",
+    "open:android": "cap open android",
+    "doctor": "cap doctor"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
